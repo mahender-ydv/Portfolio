@@ -8,7 +8,7 @@ export const profile = {
   linkedin: "https://www.linkedin.com/in/mahender-ydv/",
   location: "Jaipur, Rajasthan, India",
   // Replace with your real Google Drive share link (set to "Anyone with the link can view").
-  resumeUrl: "https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing",
+  resumeUrl: "https://drive.google.com/file/d/1VsTL6xcoHsi-pIdjAgbxTBphoezv-ZYr/view?usp=sharing",
   summary:
     "Full Stack Developer with hands-on production experience building scalable web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js), Next.js, and TypeScript. Delivered measurable performance gains, including a 2x reduction in API response time via Redis caching and a Google PageSpeed score improvement from 55 to 90, alongside REST API design, admin dashboards, and JWT-based authentication. Strong foundation in Data Structures & Algorithms (500+ problems solved) and full-stack project delivery from database design through frontend UI.",
 };
@@ -46,7 +46,7 @@ export const projects = [
     period: "2025",
     accent: "violet",
     liveUrl: "https://eduhome.example.com",
-    githubUrl: "https://github.com/your-username/eduhome-marketplace-mern",
+    githubUrl: "https://github.com/mahender-ydv",
     description:
       "A production-grade MERN course marketplace where schools and coaching institutes independently register, sell courses, and operate in full data isolation \u2014 while students browse and enroll across every organization from one platform.",
     highlights: [
@@ -65,8 +65,8 @@ export const projects = [
     tagline: "Online test management system",
     period: "Feb 2025 \u2014 Apr 2025",
     accent: "signal",
-    liveUrl: "https://testpro.example.com",
-    githubUrl: "https://github.com/your-username/testpro",
+    liveUrl: "https://test-pro-backend.vercel.app",
+    githubUrl: "https://github.com/mahender-ydv",
     description:
       "A full-stack online test management platform supporting subject-based test papers, multi-section assessments, and detailed performance analytics.",
     highlights: [
@@ -83,7 +83,7 @@ export const projects = [
     period: "Jan 2025 \u2014 Feb 2025",
     accent: "amber",
     liveUrl: "https://chatty.example.com",
-    githubUrl: "https://github.com/your-username/chatty",
+    githubUrl: "https://github.com/mahender-ydv/Chatty",
     description:
       "A real-time messaging application built on the MERN stack and Socket.IO, with instant delivery, typing indicators, and live presence tracking.",
     highlights: [

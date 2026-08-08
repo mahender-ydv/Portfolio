@@ -5,7 +5,7 @@ import { HiOutlineMail, HiOutlinePhone, HiOutlineLocationMarker } from "react-ic
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { profile } from "../data";
 
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
