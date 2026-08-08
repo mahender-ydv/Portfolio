@@ -10,17 +10,18 @@ export function createApp() {
   const allowedOrigins = (process.env.CLIENT_ORIGIN || "http://localhost:5173").split(",");
 
   app.use(helmet());
-  app.use(
-    cors({
-      origin: (origin, callback) => {
-        if (!origin || allowedOrigins.includes(origin)) {
-          callback(null, true);
-        } else {
-          callback(new Error("Not allowed by CORS"));
-        }
-      },
-    })
-  );
+  // app.use(
+  //   cors({
+  //     origin: (origin, callback) => {
+  //       if (!origin || allowedOrigins.includes(origin)) {
+  //         callback(null, true);
+  //       } else {
+  //         callback(new Error("Not allowed by CORS"));
+  //       }
+  //     },
+  //   })
+  // );
+  app.use(cors());
   app.use(express.json({ limit: "10kb" }));
   if (process.env.NODE_ENV !== "test") app.use(morgan("dev"));
 
