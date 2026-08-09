@@ -45,7 +45,7 @@ export const projects = [
     tagline: "Multi-tenant online schooling & course marketplace",
     period: "2025",
     accent: "violet",
-    liveUrl: "https://eduhome.example.com",
+    liveUrl: "https://edu-home-client.vercel.app/",
     githubUrl: "https://github.com/mahender-ydv",
     description:
       "A production-grade MERN course marketplace where schools and coaching institutes independently register, sell courses, and operate in full data isolation \u2014 while students browse and enroll across every organization from one platform.",
