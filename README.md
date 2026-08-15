@@ -1,4 +1,4 @@
-# Mahender Yadav — Portfolio (MERN)
+# Mahender Yadav — Portfolio
 
 A full-stack, animated portfolio website built with the MERN stack, showcasing
 Mahender Yadav's experience and projects — including **EduHome** (a multi-tenant
@@ -68,16 +68,12 @@ npm install
 npm run dev                # http://localhost:5173
 ```
 
-Open http://localhost:5173 — the contact form on the site posts to the backend's
-`/api/contact` endpoint and stores messages in MongoDB.
 
 ## Editing your content
 
 All resume content (experience, projects, skills, education) lives in one file:
 
-```
 frontend/src/data.js
-```
 
 Update your projects, metrics, or bio there — every section of the site reads
 from this file, so there's no need to touch component code to update content.
@@ -100,11 +96,3 @@ from this file, so there's no need to touch component code to update content.
 
 ## Viewing contact messages
 
-Messages submitted through the site are stored in MongoDB. To read them, call:
-
-```
-GET /api/contact
-Header: x-admin-key: <your ADMIN_KEY>
-```
-
-This returns the most recent 200 messages, newest first.
