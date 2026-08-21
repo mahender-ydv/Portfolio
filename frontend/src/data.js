@@ -65,7 +65,7 @@ export const projects = [
     tagline: "Online test management system",
     period: "Feb 2025 \u2014 Apr 2025",
     accent: "signal",
-    liveUrl: "https://test-pro-backend.vercel.app",
+    liveUrl: "https://test-pro-app.vercel.app",
     githubUrl: "https://github.com/mahender-ydv",
     description:
       "A full-stack online test management platform supporting subject-based test papers, multi-section assessments, and detailed performance analytics.",
